@@ -69,7 +69,7 @@ const headers = [
     headers: trackerHeaders,
   },
   {
-    source: '/api/*',
+    source: '/api/:path*',
     headers: trackerHeaders,
   },
 ];
