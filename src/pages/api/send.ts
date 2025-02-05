@@ -103,6 +103,9 @@ export default async (req: NextApiRequestCollect, res: NextApiResponse) => {
 
     const session = req.session;
 
+    console.log("HERE")
+    console.log(session)
+
     if (!session?.id) {
       return;
     }
