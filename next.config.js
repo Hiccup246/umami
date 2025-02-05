@@ -68,10 +68,6 @@ const headers = [
     source: TRACKER_SCRIPT,
     headers: trackerHeaders,
   },
-  {
-    source: '/api/:path*',
-    headers: trackerHeaders,
-  },
 ];
 
 const rewrites = [];
